@@ -1,22 +1,38 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import Layout from '../components/Layout'
+import Hero from '../components/Hero'
+import HeroHome from '../components/Hero/HeroContent/HeroHome'
+import Container from '../components/Container'
+import AboutSection from '../components/Section/AboutSection'
+import ExperienceSection from '../components/Section/ExperienceSection'
+import ServicesSection from '../components/Section/ServicesSection'
+import ContactSection from '../components/Section/ContactSection'
+import PlansSection from '../components/Section/PlansSection'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+export default function Home() {
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
+  return (
+    <Layout>
+      <Hero height='auto' addPadding={2}>
+        <HeroHome />
+      </Hero>
 
-export default IndexPage
+      <Container>
+        <AboutSection />
+      </Container>
+
+      <ExperienceSection />
+
+      <Container>
+        <ServicesSection />
+      </Container>
+
+      <ContactSection />
+      
+      <Container>
+        <PlansSection />
+      </Container>
+    </Layout>
+  )
+
+}
