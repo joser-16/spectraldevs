@@ -3,6 +3,7 @@ import Header from "../Header";
 import { globalStyles } from "./styles";
 import { Helmet } from "react-helmet";
 import useSEO from "../../hooks/useSEO";
+import Footer from "../Footer";
 
 export default function Layout({ children }) {
 
@@ -30,14 +31,18 @@ export default function Layout({ children }) {
                 <html lang="es"/>
             </Helmet>
 
-            <Header />
-            <main>
-                {children}
-            </main>
+            <div className="wrapper">
+                <Header />
+                <main>
+                    {children}
+                </main>
+
+                <Footer />
+            </div>
 
             <style jsx global>
                 {globalStyles}
             </style>
         </Fragment>
-    )
+    );
 }

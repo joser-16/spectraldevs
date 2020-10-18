@@ -5,10 +5,13 @@ import useArticles from '../../hooks/useArticles'
 
 export default function Articles() {
 
-    const articles = useArticles()
+    const articles = useArticles() || []
 
     return(
         <Fragment>
+            { !articles.length && 
+                <p className="not-articles">No se ha encontrado ningún artículo</p>
+            }
             <section className="articles">
                 {articles.map( article => 
                     <Article 

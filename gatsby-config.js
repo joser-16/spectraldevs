@@ -47,6 +47,13 @@ module.exports = {
       options: {
         apiToken: `fab4dc7a3ebf80dacf47c43eced87a`
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-178485498-1",
+      },
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

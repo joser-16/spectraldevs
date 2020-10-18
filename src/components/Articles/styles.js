@@ -2,6 +2,12 @@ import css from 'styled-jsx/css'
 import { vars, breakpoints } from '../../styles/theme'
 
 export default css`
+    .not-articles {
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: ${vars.headerHeight};
+    }
+
     .articles {
         margin-top: ${vars.headerHeight};
         display: grid;
