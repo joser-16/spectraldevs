@@ -9,7 +9,7 @@ export default function Contact() {
 
     return (
         <Fragment>
-            <Layout>
+            <Layout marginInFooter>
                 <Hero height='auto' addPadding={1.5}>
                     <HeroBlog />
                 </Hero>

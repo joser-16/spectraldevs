@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import useSEO from "../../hooks/useSEO";
 import Footer from "../Footer";
 
-export default function Layout({ children }) {
+export default function Layout({ children, marginInFooter }) {
 
     const { 
         title,
@@ -37,7 +37,7 @@ export default function Layout({ children }) {
                     {children}
                 </main>
 
-                <Footer />
+                <Footer marginTop={marginInFooter} />
             </div>
 
             <style jsx global>

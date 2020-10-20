@@ -1,17 +1,20 @@
 import React, { Fragment } from 'react';
 import Container from '../Container';
-import styles from './styles';
+import FooterStyles from './styles';
 
-export default function Footer() {
+export default function Footer({ marginTop }) {
+
+    const { styles, className } = FooterStyles(marginTop);
+
     return(
         <Fragment>
-            <footer>
+            <footer className={className}>
                 <Container>
-                    <h2>Footer</h2>
+                    <p className={className}>© 2020 | Spectral Developers - Todos los derechos reservados</p>
                 </Container>
             </footer>
 
-            <style jsx>{styles}</style>
+            {styles}
         </Fragment>
     );
 }

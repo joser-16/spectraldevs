@@ -12,7 +12,7 @@ import PlansSection from '../components/Section/PlansSection'
 export default function Home() {
 
   return (
-    <Layout>
+    <Layout marginInFooter>
       <Hero height='auto' addPadding={2}>
         <HeroHome />
       </Hero>
