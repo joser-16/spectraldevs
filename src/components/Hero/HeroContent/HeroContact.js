@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
 import style from './styles'
 import LocalImage from "../../LocalImage"
+import _JSXStyle from 'styled-jsx/style';
 
 
 export default function HeroContact() {

@@ -5,6 +5,7 @@ import { HOME } from '../../constants/routes'
 import { Link } from 'gatsby'
 import LogoSVG from '../../images/logo.svg'
 import LogoMobileSVG from '../../images/mini-logo.svg'
+import _JSXStyle from 'styled-jsx/style';
 
 
 export default function Logo() {

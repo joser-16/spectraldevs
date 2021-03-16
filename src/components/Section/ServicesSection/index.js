@@ -4,6 +4,7 @@ import Section from '..'
 import SectionTitle from '../../SectionTitle'
 import useServices from '../../../hooks/useServices'
 import ServiceCard from '../../ServiceCard'
+import _JSXStyle from 'styled-jsx/style';
 
 
 export default function ServicesSection() {

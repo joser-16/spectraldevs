@@ -3,6 +3,7 @@ import style from './styles'
 import { CONTACT } from '../../../constants/routes'
 import Button from "../../Buttons"
 import LocalImage from "../../LocalImage"
+import _JSXStyle from 'styled-jsx/style';
 
 export default function HeroHome() {
     return(
