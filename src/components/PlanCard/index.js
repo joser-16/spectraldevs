@@ -5,6 +5,7 @@ import Button from '../Buttons';
 import { CONTACT } from '../../constants/routes';
 import useDiscount from '../../hooks/useDiscount';
 import applyDiscount from '../../helpers/discount';
+import _JSXStyle from 'styled-jsx/style';
 
 export default function PlanCard({ id, title, price, details, important, items, order, url, alt}) {
 

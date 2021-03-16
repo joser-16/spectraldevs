@@ -4,6 +4,7 @@ import { globalStyles } from "./styles";
 import { Helmet } from "react-helmet";
 import useSEO from "../../hooks/useSEO";
 import Footer from "../Footer";
+import _JSXStyle from 'styled-jsx/style';
 
 export default function Layout({ children, marginInFooter }) {
 

@@ -3,6 +3,7 @@ import style from './styles'
 import Button from "../Buttons"
 import { CONTACT, BLOG } from "../../constants/routes"
 import { Link } from "gatsby"
+import _JSXStyle from 'styled-jsx/style';
 
 export default function Navigation() {
     return(

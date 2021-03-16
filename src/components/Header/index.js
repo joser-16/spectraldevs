@@ -4,6 +4,7 @@ import Logo from "../Logo"
 import Navigation from "../Navigation"
 import Container from "../Container"
 import Burger from "../Burger"
+import _JSXStyle from 'styled-jsx/style';
 
 export default function Header() {
 

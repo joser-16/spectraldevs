@@ -22,7 +22,7 @@ export const colors = {
 }
 
 export const others = {
-    primaryGradient: 'linear-gradient(90deg, #4589EE 0%, rgba(203, 18, 184, 0.56) 100%)',
+    primaryGradient: '#52acff',
     secondaryGradient: 'linear-gradient(90deg, #4589EE 0%, rgba(203, 18, 184, 1) 100%)',
     boxShadow: '0px 5px 10px 0px rgba(128,128,128,0.2)'
 }

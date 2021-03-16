@@ -11,7 +11,7 @@ export default css`
         top: 0;
         left: -100%;
         z-index: 2000;
-        background: ${others.secondaryGradient};
+        background: ${others.primaryGradient};
         display: flex;
         align-items: center;
         justify-content: center;

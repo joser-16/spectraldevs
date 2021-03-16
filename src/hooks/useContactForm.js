@@ -45,7 +45,7 @@ export default function useContactForm() {
 
         setLoading(true)
     
-        const data = await fetch('https://formspree.io/myynqjaa', {
+        const data = await fetch('https://formspree.io/f/xjvpnlvz', {
             method: 'POST',
             body: JSON.stringify(formData),
             headers: {

@@ -4,6 +4,9 @@ module.exports = {
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
+  flags: {
+    THE_FLAG: false
+  },
   plugins: [
     `gatsby-plugin-styled-jsx`,
     `gatsby-plugin-react-helmet`,
@@ -19,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Spectral Developers`,
-        short_name: `SpectralDevs`,
+        name: `DarkZun`,
+        short_name: `DarkZun`,
         start_url: `/`,
         description: `Nuestro objetivo principal es dar un servicio optimo a nuestros clientes y hacer que sus negocios puedan dar el siguiente paso a la era digital.`,
         lang: 'es',
@@ -54,7 +57,7 @@ module.exports = {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: "UA-178485498-1",
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

@@ -12,7 +12,7 @@ export default function HeroContact() {
                     <p>No dudes en contactarnos si tienes un proyecto en mente, podemos ayudarte a hacerlo realidad.</p>
                     <div className="hero-contact">
                         <LocalImage imgName='email-icon' alt='Email icon' className='hero-contact-icon' />
-                        <p>info@spectraldevs.com</p>
+                        <p>darkzun.dev@gmail.com</p>
                     </div>
                 </div>
             </div>

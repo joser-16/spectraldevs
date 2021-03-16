@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
 import HeroStyles from './styles'
 import Container from "../Container"
+import _JSXStyle from 'styled-jsx/style';
 
 export default function Hero({children, height, backgroundImage, addPadding, enablePaddingBottom}){
 

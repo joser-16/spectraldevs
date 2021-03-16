@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import style from './styles'
 import Button from '../../Buttons'
 import { CONTACT } from '../../../constants/routes'
+import _JSXStyle from 'styled-jsx/style';
 
 export default function HeroContactSection({ title }) {
     return(

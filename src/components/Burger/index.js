@@ -1,7 +1,8 @@
-import React, { Fragment, useEffect, useState } from "react"
-import style from './styles'
+import React, { Fragment } from "react"
+import styles from './styles'
 import { CONTACT, BLOG } from "../../constants/routes"
 import { Link } from "gatsby"
+import _JSXStyle from 'styled-jsx/style';
 
 export default function Burger({ isOpen }) {
     return(
@@ -29,7 +30,7 @@ export default function Burger({ isOpen }) {
                 </ul>
             </nav>
 
-            <style jsx>{style}</style>
+            <style jsx>{styles}</style>
         </Fragment>
     )
 }

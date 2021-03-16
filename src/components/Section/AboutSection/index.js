@@ -3,6 +3,7 @@ import style from './styles'
 import { useStaticQuery, graphql } from 'gatsby'
 import Section from '..'
 import SectionTitle from '../../SectionTitle'
+import _JSXStyle from 'styled-jsx/style';
 
 export default function AboutSection() {
 

@@ -4,6 +4,7 @@ import Section from '..'
 import SectionTitle from '../../SectionTitle'
 import usePlans from '../../../hooks/usePlans'
 import PlanCard from '../../PlanCard'
+import _JSXStyle from 'styled-jsx/style';
 
 export default function PlansSection() {
 

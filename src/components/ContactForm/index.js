@@ -6,6 +6,7 @@ import Alert from '../Alert'
 import useContactForm from '../../hooks/useContactForm'
 import useDiscount from '../../hooks/useDiscount'
 import applyDiscount from '../../helpers/discount'
+import _JSXStyle from 'styled-jsx/style';
 
 export default function ContactForm() {
 

@@ -5,6 +5,7 @@ import Container from '../../Container'
 import ExperienceItem from '../../ExperienceItem'
 import style from './styles'
 import useExperiences from '../../../hooks/useExperiences'
+import _JSXStyle from 'styled-jsx/style';
 
 export default function ExperienceSection() {
 

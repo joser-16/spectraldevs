@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
 import style from './styles'
 import { Link } from "gatsby"
+import _JSXStyle from 'styled-jsx/style';
 
 export default function Button({ children, variant, type, size, linkTo, className = '' }) {
     
